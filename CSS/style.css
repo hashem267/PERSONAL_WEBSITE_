@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ font-family: Noto Kufi Arabic;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+ul {
+  list-style: none;
+
+}
+
+/* Header Start */
+header  {
+height: 100vh;
+background-color:rgb(154, 124, 224); 
+
+}
+.navbar {
+background-color:#3caeac;
+border-bottom: 3px solid #5121cc; 
+position: fixed;
+z-index: 9999;
+width:100%;
+padding: 1.5rem 2rem ;
+
+}
+#home #logo{
+font-weight: 800;
+font-size: 40px;
+}
+.navbar nav{
+display: flex;
+margin:auto;
+justify-content:space-between;
+align-items:center;
+max-width: 1100px;
+
+}
+
+
+.navbar nav ul{
+display: flex;
+justify-content:space-center;
+align-items:flex-start;
+
+}
+.navbar nav ul a{
+margin:0 15px;
+font-weight: 600;
+
+}
+.header-content{
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+max-width: 1100px;
+margin: auto;
+height: 100%;
+align-items: center;
+
+padding: 5rem 2rem;
+}
+
+.header-content img{
+max-width: 450px;
+border-radius: 50px;
+}
+.header-text p{
+font-size: 24px;
+font-weight: 500;
+}
+.header-text h1{
+font-size: 60px;
+font-weight: 700;
+}
+/*education*/
+
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn-menu :hover {
+  background: #bcd5e4;
+}
+
+
+
+.primary-text {
+  color: #e96711;
+}
+#education {
+  background: rgb(174, 151, 236);
+  padding: 5rem 2rem;
+}
+
+#education .title h2 {
+  color: #161618;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#education .title p {
+  color: #240e0e;
+  font-weight: 500;
+  font-size: 24px;
+}
+#education .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#education .education-items {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#education .education-items .education-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+#education .education-items .education-item img {
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#education .menu-items .education-item h3 {
+  color: #383848;
+  border-bottom: 1px dashed #b63636;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#education .education-items .education-item p {
+  margin-top: 10px;
+}
+
+ .btn-menu {
+  display: block;
+  height: 40px;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+  background: #e6d9bd;
+}
+/*skills*/
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn-menu :hover {
+  background: #9183d4;
+  padding: 5rem 2rem;
+}
+
+
+
+.primary-text {
+  color: #e96711;
+}
+#skills {
+  background: rgb(150, 135, 212);
+  padding: 5rem 2rem;
+}
+
+#skills .title h2 {
+  color: #18171a;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#skills .title p {
+  color: #240e0e;
+  font-weight: 600;
+  font-size: 24px;
+}
+#skills .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#skills .skills-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills .skills-items .skills-item {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 80px;
+}
+
+#skills .skills-items .skills-item img {
+  width: 90px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#skills .menu-items .skills-item h3 {
+  color: #413848;
+  border-bottom: 1px dashed #b63636;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#skills .skills-items .skills-item p {
+  margin-top: 25px;
+}
+
+ .btn-menu {
+  display: block;
+  height: 40px;
+  margin: auto;
+  border: none;
+  margin-top: 30px;
+  background: #bde3e6;
+}
+
+#contact {
+  background: #9a7eb9;
+  padding: 5rem ;
+}
+#contact .container {
+  max-width: 900px;
+}
+#contact .contact-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#contact .contact-info {
+  width: 50%;
+  margin: 30px 0;
+}
+#contact .contact-info h3 {
+  font-size: 40px;
+  color: #08085e;
+  margin-bottom: 10px;
+}
+#contact .contact-info p {
+  color: #000000;
+  font-weight: 400;
+}
+form {
+  width: 50%;
+}
+form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: #c4c7ca;
+}
+#footer {
+  background-color: #4e9caa48;
+  text-align: center;
+  color: #69f;
+  padding: 15px 0;
+  font-size: 18px;
+}
+a:hover {
+  color: rgb(163, 55, 22);
+}
